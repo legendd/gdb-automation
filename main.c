@@ -2,6 +2,7 @@
 #include "stdio.h"
 int main(void)
 {
-	char *s ="hello\r\n\0";
+	char s[5] ="Hello";
+	char ans[2][8] = {"correct","wrong"};
 	while(1); 
 }
